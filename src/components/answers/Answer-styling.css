@@ -1,0 +1,111 @@
+.q-holder{
+    width: 70%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 5%;
+    background-color: #B2B5FD;
+    border-radius: 30px;
+    position: relative;
+}
+.container{
+    display: relative;
+    border: 2px solid rgb(119, 117, 131);
+    padding: 50px;
+    padding-top: 5px;
+    margin: 5%;
+    height: 700px;
+    border-radius: 25px;
+}
+.likes-holder , .dislikes-holder , .delete-holder{
+    position: absolute;
+    margin-left: 0;
+    margin-right: auto;
+    bottom: 5px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    color: rgb(65, 63, 63);
+}
+.dislikes-holder{
+    margin-left: 100px;
+}
+.likes-holder:hover , .dislikes-holder:hover , .delete-holder , .remove-holder, .post-comment:hover{
+    cursor: pointer;
+}
+.delete-holder{
+    margin-left: 80%;
+}
+.likes-holder:hover{
+    border: 3px solid green;
+    color: green;
+}
+.dislikes-holder:hover , .delete-holder:hover {
+    border: 3px solid red;
+    color: red;
+}
+.comment-container{
+    display: grid;
+    padding: 20px;
+    margin: 5px;
+    grid-template-columns: 75% 25%;
+
+    
+}
+.display-comment{
+    padding: 20px;
+    margin: 5px;
+    height: 380px;
+    overflow-y: scroll;
+    
+    
+}
+.add-comment{
+    padding: 20px;
+    margin: 5px;
+    height: 100%;
+    border: 2px solid #B2B5FD;
+    height: 380px;
+    overflow: hidden;
+}
+.comment{
+    position: relative;
+    font-size: large;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin: 20px;
+    background-color: #B2B5FD;
+    border:2px solid #B2B5FD;
+    border-radius: 20px;
+}
+.remove-holder{
+    border: none;
+    margin-left: 98%;
+    color: rgb(65, 63, 63);
+}
+.remove-holder:hover{
+    color: red;
+}
+.comment-area{
+    width:95%;
+    height: 70%;
+    padding: 15px;
+    background-color: #B2B5FD;
+    font-size: x-large;
+}
+
+.post-comment{
+    border: 2px solid #B2B5FD;
+    background-color: rgb(65, 63, 63);
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+    color: #B2B5FD;
+    border-radius: 20px;
+}
+.post-comment:hover{
+    background-color: #B2B5FD;
+    color: black;
+}

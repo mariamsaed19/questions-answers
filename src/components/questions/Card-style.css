@@ -1,0 +1,74 @@
+.question-holder{
+    position: relative;
+    padding: 15px;
+    margin: 15px;
+    background-color: #B2B5FD;
+    width: 420px;
+    height: 190px;
+    border-radius: 30px;
+}
+.likes, .answers-numbers {
+    position: absolute;
+    bottom: 2%;
+}
+.likes{
+    width: 50%;
+    height: 10px;
+    border-radius: 30%;
+    background-color: rgb(243, 147, 140);
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+.answers-numbers{
+    width: 35px;
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    left: 75%;
+    border-radius: 30px;
+    background-color: #7175e6;
+}
+.inner{
+    background-color: rgb(78, 243, 78);
+    width: 50%;
+    border-radius: 30%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+.thumbs{
+    color : rgb(65, 63, 63);
+    position: absolute;
+     bottom: 2%;
+     left:60%
+}
+.ques{
+    left: 88%;
+    bottom: 10px;
+}
+button{
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+#view{
+    background-color: #B2B5FD;
+
+}
+#view:hover{
+    border: 3px solid green;
+}
+
+#delete{
+    background-color: rgb(243, 147, 140);
+}
+#delete:hover{
+    border: 3px solid red;
+}
